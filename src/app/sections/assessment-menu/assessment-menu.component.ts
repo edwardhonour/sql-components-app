@@ -1,15 +1,9 @@
 import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SectionPanelComponent } from 'src/app/components/section-panel/section-panel.component';
 import { Observable } from 'rxjs';
 import { DataService } from 'src/app/data.service';
-import { SectionCommentsComponent } from '../section-comments/section-comments.component';
-import { SectionPhotosComponent } from '../section-photos/section-photos.component';
-import { SectionSaaComponent } from '../section-saa/section-saa.component';
-import { SectionDocumentsComponent } from '../section-documents/section-documents.component';
 import { UploadPhotoComponent } from 'src/app/components/upload-photo/upload-photo.component';
 import { UploadDocumentComponent } from 'src/app/components/upload-document/upload-document.component';
-import { SectionBackgroundComponent } from 'src/app/components/section-background/section-background.component';
 
 @Component({
   selector: 'app-assessment-menu',
